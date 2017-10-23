@@ -1,0 +1,28 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "Raindrops",
+  "main": "index.js",
+ "scripts": {
+    "test": "mocha --compilers js:babel-register tests/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeyinkaAdekunbi/raindrops.git"
+  },
+  "author": "adeyinka adekunbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdeyinkaAdekunbi/raindrops/issues"
+  },
+  "homepage": "https://github.com/AdeyinkaAdekunbi/raindrops#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
